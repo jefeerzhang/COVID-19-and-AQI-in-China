@@ -1,4 +1,5 @@
 *ssc install coefplot,replace
+* 加东西
 use "C:\Users\jefeer\Documents\我的坚果云\工作数据\data_0224.dta" ,clear
 cap drop  xtcomfirm 
 qui{
