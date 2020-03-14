@@ -7,6 +7,11 @@
 **====================================================================================
 **第一步 设置相对时间
 
+set more off
+
+cap log close
+log using picture.log,replace  //增加log files
+
 cd D:\jianguoyun\我的坚果云\工作数据\
 ! del *.png
 * 删除所有后缀名以png命名的文件
