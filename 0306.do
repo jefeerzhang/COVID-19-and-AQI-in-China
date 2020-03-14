@@ -1,6 +1,12 @@
 *ssc install coefplot,replace
+
+## Stata coding for paper
+set more off 
+capture log close 
+log using covid_AQI_china.log,replace
 * 加东西
 * 再次修改
+
 use "C:\Users\jefeer\Documents\我的坚果云\工作数据\data_0224.dta" ,clear
 cap drop  xtcomfirm 
 qui{
