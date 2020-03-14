@@ -1,4 +1,5 @@
 *ssc install coefplot,replace
+## Stata coding for paper
 set more off 
 capture log close 
 log using covid_AQI_china.log,replace
